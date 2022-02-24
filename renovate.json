@@ -15,8 +15,7 @@
             "matchManagers": [
                 "poetry"
             ],
-            "matchUpdateTypes": ["minor", "patch"],
-            "rangeStrategy": "bump"
+            "matchUpdateTypes": ["minor", "patch"]
         }
   ]
 }
