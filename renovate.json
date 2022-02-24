@@ -9,13 +9,15 @@
                 "poetry"
             ],
             "matchUpdateTypes": ["major"],
-            "enabled": false
+            "enabled": false,
+            "addLabels": ["python", "major update"]
         },
         {
             "matchManagers": [
                 "poetry"
             ],
-            "matchUpdateTypes": ["minor", "patch"]
+            "matchUpdateTypes": ["minor", "patch"],
+            "addLabels": ["python"]
         }
   ]
 }
