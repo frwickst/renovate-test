@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+        {
+            "matchManagers": [
+                "poetry"
+            ],
+            "matchUpdateTypes": ["major"],
+            "enabled": false
+        },
+        {
+            "matchManagers": [
+                "poetry"
+            ],
+            "matchUpdateTypes": ["minor", "patch"],
+            "rangeStrategy": "bump"
+        }
+  ]
+}
